@@ -1,0 +1,17 @@
+Step by Step Implementation
+
+Step 1: Create a New Project
+
+To create a new project in Android Studio please refer to How to Create/Start a New Project in Android Studio. Note that select Java as the programming language.
+
+Step 2: Add dependency to build.gradle(Module:app)
+
+Navigate to the Gradle Scripts > build.gradle(Module:app) and add the below dependency in the dependencies section.
+
+implementation ‘androidmads.library.qrgenearator:QRGenearator:1.0.3’
+
+Now sync the project from the top right corner option of Sync now. 
+
+Step 3: Modify the strings.xml file
+
+Below is the code for the strings.xml file.
